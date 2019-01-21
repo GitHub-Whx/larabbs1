@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PagesController@root')->name('root');
+
+// for test by author
+Route::get('test', 'IndexController@index');
