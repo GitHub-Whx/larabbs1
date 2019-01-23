@@ -14,7 +14,7 @@
 Route::get('/', 'PagesController@root')->name('root');
 
 // for test by whx
-Route::get('test', 'IndexController@index');
+Route::get('test', 'IndexController@index')->name('test');
 
 // 用户身份验证相关的路由  showLoginForm 这些方法在 trait 里面定义
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');

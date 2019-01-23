@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use Route;
 use Illuminate\Http\Request;
-use Illuminate\Http\Route;
+//use Illuminate\Http\Route;
 
 class IndexController extends Controller
 {
